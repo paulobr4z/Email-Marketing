@@ -7,7 +7,7 @@
 
 .container {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   background-color: black;
 }
 
@@ -151,4 +151,44 @@ footer span {
   margin-bottom: 50px;
   width: 90%;
   background-color: #f6f6f6;
+}
+
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 22px;
+    margin: 60px 30px;
+  }
+
+  .text-001 {
+    margin: 50px 35px;
+  }
+
+  .text-001 p {
+    font-size: 14px;
+  }
+
+  .smile {
+    min-height: 160px;
+  }
+
+  .smile div img {
+    width: 35px;
+  }
+
+  .smile div p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer span{
+    padding: 14px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

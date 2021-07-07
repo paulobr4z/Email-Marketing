@@ -7,7 +7,7 @@
 
 .container {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   background-color: black;
 }
 
@@ -43,7 +43,7 @@
   color: #00a857;
 }
 
-.beneficios {
+.benefits {
   display: flex;
   color: white;
   margin: 50px 65px;
@@ -51,21 +51,21 @@
   font-size: 18px;
 }
 
-.beneficios-img {
+.benefits-img {
   height: 60px;
   width: 100px;
 }
 
-.beneficios-img img{
+.benefits-img img{
   height: 100%;
 }
 
-.beneficios span {
+.benefits span {
   color: #00a857;
 }
 
 .cards {
-  min-height: 310px;
+  min-height: 330px;
   background-color: #00a857;
 }
 
@@ -77,7 +77,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin: 30px auto;
 }
 
@@ -144,4 +144,58 @@ footer span {
   margin-bottom: 50px;
   width: 90%;
   background-color: #f6f6f6;
+}
+
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 22px;
+    margin: 60px 30px;
+  }
+
+  .text-001 {
+    margin: 50px 35px;
+  }
+
+  .text-001 p {
+    font-size: 14px;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 35px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .benefits-img {
+    margin-bottom: 20px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .cards div {
+    flex-direction: column;
+  }
+
+  .cards div p {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer span{
+    padding: 14px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

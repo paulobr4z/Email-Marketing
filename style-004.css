@@ -43,27 +43,6 @@
   color: #00a857;
 }
 
-.beneficios {
-  display: flex;
-  color: white;
-  margin: 50px 65px;
-  line-height: 25px;
-  font-size: 18px;
-}
-
-.beneficios-img {
-  height: 60px;
-  width: 100px;
-}
-
-.beneficios-img img{
-  height: 100%;
-}
-
-.beneficios span {
-  color: #00a857;
-}
-
 .smile {
   min-height: 200px;
   background-color: #00a857;
